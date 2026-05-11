@@ -34,7 +34,6 @@ PulseAid is an **AI-powered disaster response platform** built for zero-connecti
 | Styling | CSS-in-JS |
 | Maps | Leaflet / Google Maps |
 | Offline | PWA + Service Workers |
-| AI | Claude API (Anthropic) |
 
 ---
 
