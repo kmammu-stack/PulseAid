@@ -1,16 +1,65 @@
-# React + Vite
+# 🚨 PulseAid — AI-Powered Disaster Response System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Built for emergencies. Designed to save lives.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌍 What is PulseAid?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+PulseAid is an **AI-powered disaster response platform** built for zero-connectivity rescue operations. It helps first responders, survivors, and relief teams coordinate during earthquakes, floods, and other disasters — even when the internet is down.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🗺️ **Live Survivor Heatmaps** — visualize distress signals in real time
+- 📡 **Mesh Network Fallback** — works without internet connectivity
+- 📱 **Offline-first PWA** — installable, works on any device
+- 🏥 **Triage Screen** — rapid medical assessment tool
+- 🚨 **Alerts System** — push critical warnings to rescue teams
+- 🗺️ **Map Screen** — locate survivors and relief camps
+- 🛡️ **NDRF Integration** — coordinate with national disaster teams
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Frontend | React + Vite |
+| Styling | CSS-in-JS |
+| Maps | Leaflet / Google Maps |
+| Offline | PWA + Service Workers |
+| AI | Claude API (Anthropic) |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/kmammu-stack/PulseAid.git
+
+# Install dependencies
+cd react-app
+npm install
+
+# Run locally
+npm run dev
+```
+
+---
+
+## 👥 Team
+
+Built with Supriya and Grishma for Witch Hunt hackathon by team Bytestorm
+
+---
+
+## 📄 License
+
+MIT
